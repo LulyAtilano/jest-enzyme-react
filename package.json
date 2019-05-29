@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --watch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",
-    "jest": "^24.8.0"
+    "identity-obj-proxy": "^3.0.0"
   }
 }
